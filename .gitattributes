@@ -1,0 +1,6 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.extension filter=lfs diff=lfs merge=lfs -text
+path/to/artifacts/model.pkl filter=lfs diff=lfs merge=lfs -text
+artifacts/model.pkl filter=lfs diff=lfs merge=lfs -text
+artifacts/preprocessor.pkl filter=lfs diff=lfs merge=lfs -text
+artifacts/model.pkl' filter=lfs diff=lfs merge=lfs -text
